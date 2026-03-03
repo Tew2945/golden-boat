@@ -72,7 +72,7 @@ export default function Navbar() {
           <a href="#hero" onClick={() => setOpen(false)}>
             Home
           </a>
-          <a href="#overview" onClick={() => setOpen(false)}>
+          <a href="#heritage" onClick={() => setOpen(false)}>
             Heritage
           </a>
           <a href="#process" onClick={() => setOpen(false)}>
