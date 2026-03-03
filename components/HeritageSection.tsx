@@ -2,7 +2,7 @@
 
 export default function HeritageSection() {
     return (
-        <section className="w-full text-gray-900">
+        <section id="heritage" className="w-full text-gray-900">
 
             {/* ================= HERO INTRO ================= */}
             <div className="relative min-h-[80vh] flex items-center justify-center text-white">
