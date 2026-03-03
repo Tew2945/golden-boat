@@ -1,40 +1,44 @@
-const steps = [
-  "SOY BEAN SELECTION",
-  "STEAMING",
-  "ADDING MOLD STARTER & ROAST WHEAT",
-  "KOJI INCUBATION ROOM",
-  "FERMENTATION (MOROMI)",
-  "PRESSING / FILTRATION",
-  "MIXING",
-  "FILTERING",
-  "PASTEURIZATION",
-  "FILLING LINE & CARTON PACKING",
-];
+import { steps } from "@/data/process";
+import Image from "next/image";
 
 export default function ProductionProcess() {
-  return (
-    <section id="process" className="py-24 bg-gray-50 px-6">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-16">
-          Production Process
-        </h2>
+    return (
+        <section id="process" className="relative">
+            <div className="absolute inset-0 bg-black/60" />
+            <div className="relative z-10 max-w-6xl mx-auto text-center px-6 py-20">
+                <h2 className="text-4xl font-bold mb-16 text-white">
+                    Production Process
+                </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {steps.map((step, index) => (
-            <div
-              key={index}
-              className="border rounded-xl p-6 shadow-sm bg-white"
-            >
-              <div className="text-sm text-gray-500 mb-2">
-                Step {index + 1}
-              </div>
-              <h3 className="font-semibold">
-                {step}
-              </h3>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    {steps.map((step, index) => (
+                        <div
+                            key={index}
+                            className="bg-white rounded-2xl shadow-md overflow-hidden group hover:shadow-xl transition duration-300"
+                        >
+                            {/* Image */}
+                            <div className="relative h-72 w-full">
+                                <Image
+                                    src={step.image}
+                                    alt={step.title}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition duration-500"
+                                />
+                            </div>
+
+                            {/* Content */}
+                            <div className="p-6 text-left">
+                                <div className="text-sm text-gray-500 mb-2">
+                                   Step {index + 1}
+                                </div>
+                                <h3 className="font-semibold text-gray-500 text-lg">
+                                    {step.title}
+                                </h3>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+        </section>
+    );
 }
