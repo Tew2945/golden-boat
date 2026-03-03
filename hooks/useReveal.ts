@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export function useReveal() {
+export function useReveal(threshold = 0.15) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
@@ -12,13 +12,16 @@ export function useReveal() {
           setVisible(true);
         }
       },
-      { threshold: 0.15 }
+      { threshold }
     );
 
-    if (ref.current) observer.observe(ref.current);
+    const current = ref.current;
+    if (current) observer.observe(current);
 
-    return () => observer.disconnect();
-  }, []);
+    return () => {
+      if (current) observer.unobserve(current);
+    };
+  }, [threshold]);
 
   return { ref, visible };
 }

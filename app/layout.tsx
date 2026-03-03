@@ -10,7 +10,7 @@ const geistSans = Geist({
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-serif",
+  variable: "--font-serif-playfair",
 });
 
 const geistMono = Geist_Mono({
@@ -31,8 +31,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+  className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} font-sans antialiased`}
+>
         {children}
       </body>
     </html>
