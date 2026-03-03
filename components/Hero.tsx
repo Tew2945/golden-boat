@@ -21,7 +21,7 @@ export default function Hero() {
 
         <a
           href="#process"
-          className="inline-block px-8 py-3 border border-[var(--heritage-gold)] text-[var(--heritage-gold)] uppercase tracking-widest text-sm transition hover:bg-[var(--heritage-gold)] hover:text-black"
+          className="inline-block px-8 py-3 border border-[var(--heritage-gold)] text-[var(--heritage-gold)] uppercase tracking-widest text-sm transition hover:bg-[var(--heritage-gold)] hover:text-yellow-200"
         >
           Discover Our Process
         </a>
