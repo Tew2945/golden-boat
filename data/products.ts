@@ -67,7 +67,7 @@ export const products: Product[] = [
     name: "LESS SODIUM 47% SOY SAUCE",
     name_th: "ซีอิ๊วสูตรลดเกลือ",
     categorySlug: "cooking-sauce",
-    image: "/images/products/less-sodium-47-soy-sauce.jpg",
+    image: "/images/products/04. ซีอิ๊วลดเกลือ 200.png",
     sizes: [200, 700],
     usage:
       "Less sodium naturally brewed soy sauce that improves and enriches the flavour and taste of soups, stir fries, marinades, stews and steamed dishes. Also excellent as a dip.",
@@ -84,7 +84,7 @@ export const products: Product[] = [
     name: "SUPREME DARK SOY SAUCE",
     name_th: "ซีอิ๊วดำสูตร 1",
     categorySlug: "cooking-sauce",
-    image: "/images/products/supreme-dark-soy-sauce.jpg",
+    image: "/images/products/05. ซีอิ๊วดำ สูตร1 1000.png",
     sizes: [200, 300, 700],
     usage:
       "Naturally brewed dark soy sauce that enhances flavour, aroma and colour. Perfect for fried noodles, roasted duck, chicken, pork belly, fish maw soup, hot and sour soup, and stewed dishes.",
@@ -100,7 +100,7 @@ export const products: Product[] = [
     name: "SWEET SOY SAUCE",
     name_th: "ซีอิ๊วหวาน",
     categorySlug: "cooking-sauce",
-    image: "/images/products/sweet-soy-sauce.jpg",
+    image: "/images/products/06. ซีอิ๊วหวาน 1000.png",
     sizes: [200, 300, 700, 1950],
     usage:
       "Enriched sweetened soy sauce with incredible flavour and taste. Perfect for stir frying, marinating and dipping. Its rich golden brown colour enhances texture and intensity in dishes.",
@@ -117,7 +117,7 @@ export const products: Product[] = [
     name: "ALL-PURPOSE SEASONING SAUCE",
     name_th: "ซอสปรุงรสฉลากเขียว",
     categorySlug: "cooking-sauce",
-    image: "/images/products/all-purpose-seasoning-sauce.jpg",
+    image: "/images/products/07. ซอสปรุงรสฉลากเขียว (1).png",
     sizes: [200, 300, 700, 4300],
     usage:
       "Ideal for stir frying vegetables, meat, poultry and seafood. Delivers a rich, delicious savoury flavour and aroma. Also excellent as a marinade.",
@@ -133,7 +133,7 @@ export const products: Product[] = [
     name: "SUPREME FERMENTED SOYBEAN",
     name_th: "เต้าเจี้ยวสูตร 1",
     categorySlug: "cooking-sauce",
-    image: "/images/products/supreme-fermented-soybean.jpg",
+    image: "/images/products/08. เต้าเจี๊ยว สูตร1 (1).png",
     sizes: [300, 700],
     usage:
       "Made from whole soybeans with enriched flavour and a unique taste. Particularly delicious with stir fried vegetables, chicken, duck and as a marinade.",
@@ -150,7 +150,7 @@ export const products: Product[] = [
     name: "OYSTER SAUCE",
     name_th: "ซอสหอย",
     categorySlug: "cooking-sauce",
-    image: "/images/products/oyster-sauce.jpg",
+    image: "/images/products/09. ซอสหอยนางรม 1000.png",
     sizes: [300, 700],
     usage:
       "Rich, concentrated savoury sauce bursting with flavour. Perfect for marinating and stir frying. Excellent with white and red meats as well as seafood dishes.",
@@ -166,7 +166,7 @@ export const products: Product[] = [
     name: "VEGETARIAN MUSHROOM SAUCE",
     name_th: "ซอสเห็ดหอม",
     categorySlug: "cooking-sauce",
-    image: "/images/products/vegetarian-mushroom-sauce.jpg",
+    image: "/images/products/10. ซอสข้นเห็ดหอม (1).png",
     sizes: [200, 300, 700],
     usage:
       "Rich, concentrated savoury sauce with mild mushroom flavour. Perfect for vegetarian dishes and stir fried vegetables. Made with high quality ingredients.",
@@ -182,7 +182,7 @@ export const products: Product[] = [
     name: "MURASAKI JAPANESE SOY SAUCE",
     name_th: "ซีอิ๊วญี่ปุ่นมูราซากิ",
     categorySlug: "cooking-sauce",
-    image: "/images/products/murasaki-japanese-soy-sauce.jpg",
+    image: "/images/products/11. Japan Soy sauce (1).png",
     sizes: [200, 1000],
     usage:
       "Naturally brewed Koikuchi shoyu, an excellent all-purpose Japanese soy sauce that improves and enriches flavour in marinades, gravies, braising liquids and stir fries. Perfect for both cooking and seasoning.",
