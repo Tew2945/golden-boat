@@ -28,7 +28,7 @@ export default function PackagingSection() {
         </h2>
 
         <img
-          src="/images/packaging.jpg"
+          src="/images/hero/package.png"
           className={`mx-auto rounded-xl shadow-2xl reveal ${
             visible ? "visible" : ""
           }`}
