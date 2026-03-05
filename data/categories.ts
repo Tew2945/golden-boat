@@ -1,8 +1,8 @@
 export const categories = [
-  { slug: "cooking-sauce", name: "COOKING SAUCE" },
-  { slug: "cooking-marinade", name: "COOKING & MARINATE SAUCE" },
-  { slug: "dipping-sauce", name: "DIPPING SAUCE" },
-  { slug: "salad-dressing", name: "SALAD DRESSING" },
-  { slug: "ready-sauce", name: "READY SAUCE, EASY COOKING" },
-  { slug: "curry-premix", name: "CURRY PREMIX" },
+  { categorySlug: "cooking-sauce", name: "COOKING SAUCE" },
+  { categorySlug: "cooking-marinade-sauce", name: "COOKING & MARINATE SAUCE" },
+  { categorySlug: "dipping-sauce", name: "DIPPING SAUCE" },
+  { categorySlug: "salad-dressing", name: "SALAD DRESSING" },
+  { categorySlug: "ready-sauce", name: "READY SAUCE, EASY COOKING" },
+  { categorySlug: "curry-premix", name: "CURRY PREMIX" },
 ];

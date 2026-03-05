@@ -10,15 +10,17 @@ type CategoryPageProps = {
   };
 };
 
-export default function CategoryPage({ params }: CategoryPageProps) {
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { slug } = await params;
+
   const category = categories.find(
-    (c) => c.slug === params.slug
+    (c) => c.categorySlug === slug
   );
 
   if (!category) return notFound();
 
   const filteredProducts = products.filter(
-    (product) => product.categorySlug === params.slug
+    (product) => product.categorySlug === slug
   );
 
   return (

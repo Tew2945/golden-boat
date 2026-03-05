@@ -431,90 +431,90 @@ export const products: Product[] = [
   },
 
   {
-  slug: "japanese-soy-sauce-sesame-dressing",
-  name: "JAPANESE SOY SAUCE WITH SESAME DRESSING",
-  name_th: "น้ำสลัดซีอิ๊วญี่ปุ่นผสมงา",
-  categorySlug: "salad-dressing",
-  image: "/images/products/japanese-soy-sauce-sesame-dressing.jpg",
-  sizes: [200],
-  usage: "Refreshing soy sauce sesame dressing that pairs well with all types of salad and is also excellent with fish carpaccio.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "roasted-sesame-japanese-dressing-low-fat",
-  name: "ROASTED SESAME JAPANESE DRESSING (LOW FAT)",
-  name_th: "น้ำสลัดครีมงาคั่วสไตล์ญี่ปุ่น สูตรไขมันต่ำ",
-  categorySlug: "salad-dressing",
-  image: "/images/products/roasted-sesame-japanese-dressing-low-fat.jpg",
-  sizes: [200],
-  usage: "Roasted sesame Japanese salad dressing that delivers rich umami flavour and pairs well with all types of salads or fish carpaccio.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "coriander-pakchee-dressing",
-  name: "CORIANDER (PAKCHEE) DRESSING",
-  name_th: "น้ำสลัดผักชี",
-  categorySlug: "salad-dressing",
-  image: "/images/products/coriander-pakchee-dressing.jpg",
-  sizes: [200],
-  usage: "Creamy coriander dressing bursting with freshness. Perfect not only for salads but also for burritos, sandwiches, veggie wraps, grilled meats and fries.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "anchovy-salad-dressing",
-  name: "ANCHOVY SALAD DRESSING",
-  name_th: "น้ำสลัดแอนโชวี่",
-  categorySlug: "salad-dressing",
-  image: "/images/products/anchovy-salad-dressing.jpg",
-  sizes: [200],
-  usage: "Unique anchovy dressing blended with garlic and onion to create an extra umami flavour. A low-fat dressing perfect for all types of salads.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "yuzu-dressing-oil-free",
-  name: "YUZU DRESSING (OIL FREE)",
-  name_th: "น้ำสลัดยูซุ",
-  categorySlug: "salad-dressing",
-  image: "/images/products/yuzu-dressing-oil-free.jpg",
-  sizes: [200],
-  usage: "Oil-free yuzu dressing perfect for low-fat diets. Aromatic citrus fragrance with refreshing zesty flavour that brightens any dish.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "wasabi-dressing-oil-free",
-  name: "WASABI DRESSING (OIL FREE)",
-  name_th: "น้ำสลัดวาซาบิ",
-  categorySlug: "salad-dressing",
-  image: "/images/products/wasabi-dressing-oil-free.jpg",
-  sizes: [200],
-  usage: "Oil-free wasabi dressing delivering a natural wasabi punch. Perfect for wasabi lovers looking to add freshness and flavour to their meals.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
-  slug: "instant-thai-salad-dressing",
-  name: "INSTANT THAI SALAD DRESSING",
-  name_th: "น้ำยำสำเร็จรูป",
-  categorySlug: "salad-dressing",
-  image: "/images/products/instant-thai-salad-dressing.jpg",
-  sizes: [200],
-  usage: "Universal sauce for Thai salad dishes such as seafood salad, vermicelli salad and papaya salad. Simply add lime or lemon to adjust the flavour to your liking.",
-  checklist: [
-    "Dressing"
-  ],
-},
-{
+    slug: "japanese-soy-sauce-sesame-dressing",
+    name: "JAPANESE SOY SAUCE WITH SESAME DRESSING",
+    name_th: "น้ำสลัดซีอิ๊วญี่ปุ่นผสมงา",
+    categorySlug: "salad-dressing",
+    image: "/images/products/japanese-soy-sauce-sesame-dressing.jpg",
+    sizes: [200],
+    usage: "Refreshing soy sauce sesame dressing that pairs well with all types of salad and is also excellent with fish carpaccio.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "roasted-sesame-japanese-dressing-low-fat",
+    name: "ROASTED SESAME JAPANESE DRESSING (LOW FAT)",
+    name_th: "น้ำสลัดครีมงาคั่วสไตล์ญี่ปุ่น สูตรไขมันต่ำ",
+    categorySlug: "salad-dressing",
+    image: "/images/products/roasted-sesame-japanese-dressing-low-fat.jpg",
+    sizes: [200],
+    usage: "Roasted sesame Japanese salad dressing that delivers rich umami flavour and pairs well with all types of salads or fish carpaccio.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "coriander-pakchee-dressing",
+    name: "CORIANDER (PAKCHEE) DRESSING",
+    name_th: "น้ำสลัดผักชี",
+    categorySlug: "salad-dressing",
+    image: "/images/products/coriander-pakchee-dressing.jpg",
+    sizes: [200],
+    usage: "Creamy coriander dressing bursting with freshness. Perfect not only for salads but also for burritos, sandwiches, veggie wraps, grilled meats and fries.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "anchovy-salad-dressing",
+    name: "ANCHOVY SALAD DRESSING",
+    name_th: "น้ำสลัดแอนโชวี่",
+    categorySlug: "salad-dressing",
+    image: "/images/products/anchovy-salad-dressing.jpg",
+    sizes: [200],
+    usage: "Unique anchovy dressing blended with garlic and onion to create an extra umami flavour. A low-fat dressing perfect for all types of salads.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "yuzu-dressing-oil-free",
+    name: "YUZU DRESSING (OIL FREE)",
+    name_th: "น้ำสลัดยูซุ",
+    categorySlug: "salad-dressing",
+    image: "/images/products/yuzu-dressing-oil-free.jpg",
+    sizes: [200],
+    usage: "Oil-free yuzu dressing perfect for low-fat diets. Aromatic citrus fragrance with refreshing zesty flavour that brightens any dish.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "wasabi-dressing-oil-free",
+    name: "WASABI DRESSING (OIL FREE)",
+    name_th: "น้ำสลัดวาซาบิ",
+    categorySlug: "salad-dressing",
+    image: "/images/products/wasabi-dressing-oil-free.jpg",
+    sizes: [200],
+    usage: "Oil-free wasabi dressing delivering a natural wasabi punch. Perfect for wasabi lovers looking to add freshness and flavour to their meals.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
+    slug: "instant-thai-salad-dressing",
+    name: "INSTANT THAI SALAD DRESSING",
+    name_th: "น้ำยำสำเร็จรูป",
+    categorySlug: "salad-dressing",
+    image: "/images/products/instant-thai-salad-dressing.jpg",
+    sizes: [200],
+    usage: "Universal sauce for Thai salad dishes such as seafood salad, vermicelli salad and papaya salad. Simply add lime or lemon to adjust the flavour to your liking.",
+    checklist: [
+      "Dressing"
+    ],
+  },
+  {
     slug: "sweet-sour-stir-fry-sauce",
     name: "Sweet & Sour Stir Fry Sauce",
     name_th: "ซอสผัดเปรี้ยวหวาน",
