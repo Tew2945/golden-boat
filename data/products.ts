@@ -429,4 +429,232 @@ export const products: Product[] = [
       "Seasoning",
     ],
   },
+
+  {
+  slug: "japanese-soy-sauce-sesame-dressing",
+  name: "JAPANESE SOY SAUCE WITH SESAME DRESSING",
+  name_th: "น้ำสลัดซีอิ๊วญี่ปุ่นผสมงา",
+  categorySlug: "salad-dressing",
+  image: "/images/products/japanese-soy-sauce-sesame-dressing.jpg",
+  sizes: [200],
+  usage: "Refreshing soy sauce sesame dressing that pairs well with all types of salad and is also excellent with fish carpaccio.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "roasted-sesame-japanese-dressing-low-fat",
+  name: "ROASTED SESAME JAPANESE DRESSING (LOW FAT)",
+  name_th: "น้ำสลัดครีมงาคั่วสไตล์ญี่ปุ่น สูตรไขมันต่ำ",
+  categorySlug: "salad-dressing",
+  image: "/images/products/roasted-sesame-japanese-dressing-low-fat.jpg",
+  sizes: [200],
+  usage: "Roasted sesame Japanese salad dressing that delivers rich umami flavour and pairs well with all types of salads or fish carpaccio.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "coriander-pakchee-dressing",
+  name: "CORIANDER (PAKCHEE) DRESSING",
+  name_th: "น้ำสลัดผักชี",
+  categorySlug: "salad-dressing",
+  image: "/images/products/coriander-pakchee-dressing.jpg",
+  sizes: [200],
+  usage: "Creamy coriander dressing bursting with freshness. Perfect not only for salads but also for burritos, sandwiches, veggie wraps, grilled meats and fries.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "anchovy-salad-dressing",
+  name: "ANCHOVY SALAD DRESSING",
+  name_th: "น้ำสลัดแอนโชวี่",
+  categorySlug: "salad-dressing",
+  image: "/images/products/anchovy-salad-dressing.jpg",
+  sizes: [200],
+  usage: "Unique anchovy dressing blended with garlic and onion to create an extra umami flavour. A low-fat dressing perfect for all types of salads.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "yuzu-dressing-oil-free",
+  name: "YUZU DRESSING (OIL FREE)",
+  name_th: "น้ำสลัดยูซุ",
+  categorySlug: "salad-dressing",
+  image: "/images/products/yuzu-dressing-oil-free.jpg",
+  sizes: [200],
+  usage: "Oil-free yuzu dressing perfect for low-fat diets. Aromatic citrus fragrance with refreshing zesty flavour that brightens any dish.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "wasabi-dressing-oil-free",
+  name: "WASABI DRESSING (OIL FREE)",
+  name_th: "น้ำสลัดวาซาบิ",
+  categorySlug: "salad-dressing",
+  image: "/images/products/wasabi-dressing-oil-free.jpg",
+  sizes: [200],
+  usage: "Oil-free wasabi dressing delivering a natural wasabi punch. Perfect for wasabi lovers looking to add freshness and flavour to their meals.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+  slug: "instant-thai-salad-dressing",
+  name: "INSTANT THAI SALAD DRESSING",
+  name_th: "น้ำยำสำเร็จรูป",
+  categorySlug: "salad-dressing",
+  image: "/images/products/instant-thai-salad-dressing.jpg",
+  sizes: [200],
+  usage: "Universal sauce for Thai salad dishes such as seafood salad, vermicelli salad and papaya salad. Simply add lime or lemon to adjust the flavour to your liking.",
+  checklist: [
+    "Dressing"
+  ],
+},
+{
+    slug: "sweet-sour-stir-fry-sauce",
+    name: "Sweet & Sour Stir Fry Sauce",
+    name_th: "ซอสผัดเปรี้ยวหวาน",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/sweet-sour.jpg",
+    sizes: [200],
+    usage:
+      "Simply add about 7 tablespoons (100g) of sauce to your dish and stir fry with deep-fried seafood, chicken, or pork in a wok. Add more sauce to taste.",
+    checklist: ["Stir Fry"],
+  },
+  {
+    slug: "tamarind-sauce",
+    name: "Tamarind Sauce",
+    name_th: "ซอสมะขาม",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/tamarind.jpg",
+    sizes: [200],
+    usage:
+      "Thai tamarind sauce with a sweet and sour flavor that pairs well with seafood, vegetables, and stir fry dishes. It can also be used as a glaze, dipping sauce, or even mixed into a refreshing tamarind drink.",
+    checklist: ["Stir Fry", "Dipping"],
+  },
+  {
+    slug: "steamed-fish-sauce",
+    name: "Steamed Fish Sauce",
+    name_th: "ซีอิ๊วนึ่งปลา",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/steamed-fish.jpg",
+    sizes: [200, 700],
+    usage:
+      "A simple sauce to prepare delicious steamed fish. Steam fish for 4–6 minutes with ginger and scallions. Heat a mix of steamed fish sauce and water (1:2 ratio) with oil, then pour over the fish and serve immediately.",
+    checklist: ["Steaming", "Seasoning"],
+  },
+  {
+    slug: "hot-spicy-hot-pot-soup",
+    name: "Hot & Spicy Hot Pot Soup",
+    name_th: "ซอสเย็นตาโฟหม้อไฟ",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/hotpot.jpg",
+    sizes: [200, 1950],
+    usage:
+      "A mouth-watering hot and spicy soup base. Mix sauce with water at a 1:3 ratio, bring to boil, then add pork, chicken, fish balls, and vegetables.",
+    checklist: ["Soup Base"],
+  },
+  {
+    slug: "vegan-mala-spicy-sauce",
+    name: "Vegan Mala Spicy Sauce",
+    name_th: "ซอสหม่าล่า",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/mala.jpg",
+    sizes: [110],
+    usage:
+      "Rich and spicy mala flavor. Perfect as a soup base (1:5 mixture with water), stir fry sauce, or universal spicy dipping sauce.",
+    checklist: ["Soup Base", "Dipping", "Stir Fry"],
+  },
+  {
+    slug: "chili-garlic-oil",
+    name: "Chili Garlic Oil",
+    name_th: "น้ำมันพริกกระเทียม",
+    categorySlug: "ready-sauce",
+    image: "/products/ready-sauce/chili-garlic-oil.jpg",
+    sizes: [110],
+    usage:
+      "A flavorful mix of chili, crispy garlic, and coconut oil that delivers strong umami taste. Great for stir fry dishes, aglio e olio pasta, Chinese egg noodles, or as a spicy table dip.",
+    checklist: ["Stir Fry", "Dipping", "Seasoning"],
+  },
+  {
+    slug: "vegan-massaman-curry-paste",
+    name: "Vegan Massaman Curry Paste",
+    name_th: "แกงมัสมั่นเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/massaman.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix curry paste with water and coconut milk and bring to boil. Then add diced beef, lamb, or chicken together with vegetables such as potato, onion, and peanuts.",
+    checklist: ["Soup Paste", "Stir Fry"],
+  },
+  {
+    slug: "vegan-red-curry-paste",
+    name: "Vegan Red Curry Paste",
+    name_th: "แกงแดงเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/red-curry.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix curry paste with water and coconut milk and bring to boil. Then add vegetables and pineapple.",
+    checklist: ["Curry", "Stir Fry"],
+  },
+  {
+    slug: "vegan-green-curry-paste",
+    name: "Vegan Green Curry Paste",
+    name_th: "แกงเขียวเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/green-curry.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix curry paste with water and coconut milk and bring to boil. Then add diced or roughly chopped vegetables.",
+    checklist: ["Curry", "Stir Fry"],
+  },
+  {
+    slug: "vegan-panang-curry-paste",
+    name: "Vegan Panang Curry Paste",
+    name_th: "แกงพะแนงเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/panang.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix curry paste with water and coconut milk and bring to boil. Then add diced vegetables.",
+    checklist: ["Curry", "Stir Fry"],
+  },
+  {
+    slug: "vegan-yellow-curry-paste",
+    name: "Vegan Yellow Curry Paste",
+    name_th: "แกงเหลืองเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/yellow-curry.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix curry paste with water and coconut milk and bring to boil. Then add diced vegetables.",
+    checklist: ["Soup Paste", "Stir Fry"],
+  },
+  {
+    slug: "vegan-tom-yum-paste",
+    name: "Vegan Tom Yum Paste",
+    name_th: "ต้มยำเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/tom-yum.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix tom yum paste with water and coconut milk and bring to boil. Then add seafood or chicken with sliced vegetables such as lemongrass, galangal, lime leaf, mushrooms, red onion, and coriander.",
+    checklist: ["Soup Paste", "Stir Fry"],
+  },
+  {
+    slug: "vegan-tom-kha-paste",
+    name: "Vegan Tom Kha Paste",
+    name_th: "ต้มข่าเจปรุงสำเร็จ",
+    categorySlug: "curry-premix",
+    image: "/products/curry-premix/tom-kha.jpg",
+    sizes: [110, 320, 1000],
+    usage:
+      "Mix tom kha paste with water and coconut milk and bring to boil. Then add diced chicken and sliced vegetables such as lemongrass, galangal, lime leaf, mushrooms, red onion, and coriander.",
+    checklist: ["Soup Paste", "Stir Fry"],
+  },
 ];
