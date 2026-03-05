@@ -260,7 +260,7 @@ export const products: Product[] = [
     name: "PREMIUM LIGHT SOY SAUCE",
     name_th: "ซีอิ๊วเรือทอง",
     categorySlug: "dipping-sauce",
-    image: "/images/products/premium-light-soy-sauce.jpg",
+    image: "/images/products/16. ซีอิ๊วขาวเรือทอง.png",
     sizes: [200],
     usage:
       "Naturally brewed soy sauce that enhances flavour and taste. Excellent as a dipping and seasoning sauce.",
@@ -274,7 +274,7 @@ export const products: Product[] = [
     name: "DASHI SOY SAUCE",
     name_th: "ซีอิ๊วดาซิ",
     categorySlug: "dipping-sauce",
-    image: "/images/products/dashi-soy-sauce.jpg",
+    image: "/images/products/17. ซีอิ๊วดาชิ.png",
     sizes: [200],
     usage:
       "Rich Japanese soy sauce made with authentic ingredients. Perfect as a table sauce or dip. Ideal for sukiyaki (1:3 mix) and shabu (1:4 mix).",
@@ -286,9 +286,9 @@ export const products: Product[] = [
   {
     slug: "shoyu",
     name: "SHOYU",
-    name_th: "",
+    name_th: "โชยุ",
     categorySlug: "dipping-sauce",
-    image: "/images/products/shoyu.jpg",
+    image: "/images/products/18. โชยุ.png",
     sizes: [200],
     usage:
       "Rich Japanese soy sauce made with authentic natural ingredients. Perfect as a table sauce or dipping sauce.",
@@ -301,7 +301,7 @@ export const products: Product[] = [
     name: "SWEETENED CHILLI SAUCE",
     name_th: "น้ำจิ้มไก่",
     categorySlug: "dipping-sauce",
-    image: "/images/products/sweetened-chilli-sauce.jpg",
+    image: "/images/products/19. น้ำจิ้มไก่ (2).png",
     sizes: [200, 300, 700],
     usage:
       "A blend of fresh chilli, sugar and garlic delivering a sweet and spicy flavour. Excellent dipping sauce for fried chicken, seafood and snacks.",
@@ -314,7 +314,7 @@ export const products: Product[] = [
     name: "CHILI SAUCE",
     name_th: "ซอสพริก",
     categorySlug: "dipping-sauce",
-    image: "/images/products/chili-sauce.jpg",
+    image: "/images/products/20. ซอสพริก.png",
     sizes: [200],
     usage:
       "A versatile chili sauce that enhances flavour and taste. Excellent as a dipping sauce.",
@@ -327,7 +327,7 @@ export const products: Product[] = [
     name: "SRIRACHA CHILI SAUCE",
     name_th: "ซอสพริกศรีราชา",
     categorySlug: "dipping-sauce",
-    image: "/images/products/sriracha-chili-sauce.jpg",
+    image: "/images/products/21. ซอสพริกศรีราชา.png",
     sizes: [200],
     usage:
       "Intense and bold chili flavour. Suitable for dipping with savoury dishes.",
@@ -340,7 +340,7 @@ export const products: Product[] = [
     name: "SOY SAUCE WITH CHILLI",
     name_th: "ซีอิ๊วพริก",
     categorySlug: "dipping-sauce",
-    image: "/images/products/soy-sauce-with-chilli.jpg",
+    image: "/images/products/22. ซีอิ๊วพริก.png",
     sizes: [200],
     usage:
       "A unique blend of soy sauce and fresh chilli, creating the perfect table sauce for dipping. Excellent with poultry, meat, vegetables and seafood.",
@@ -353,7 +353,7 @@ export const products: Product[] = [
     name: "JAEW SPICY SAUCE",
     name_th: "ซอสจิ้มแจ่ว",
     categorySlug: "dipping-sauce",
-    image: "/images/products/jaew-spicy-sauce.jpg",
+    image: "/images/products/23. ซอสจิ้มแจ่ว.png",
     sizes: [200],
     usage:
       "Spicy and intense Thai-style sauce. Perfect for dipping grilled meats and poultry.",
@@ -366,7 +366,7 @@ export const products: Product[] = [
     name: "SEAFOOD DIPPING SAUCE",
     name_th: "น้ำจิ้มซีฟู้ด",
     categorySlug: "dipping-sauce",
-    image: "/images/products/seafood-dipping-sauce.jpg",
+    image: "/images/products/24. น้ำจิ้มซีฟู้ด.png",
     sizes: [200],
     usage:
       "The perfect dipping sauce for all types of seafood, made with fresh lime, chilli, coriander and garlic.",
@@ -379,7 +379,7 @@ export const products: Product[] = [
     name: "TERIYAKI SAUCE",
     name_th: "ซอสเทริยากิ",
     categorySlug: "dipping-sauce",
-    image: "/images/products/teriyaki-sauce.jpg",
+    image: "/images/products/25. ซอสเทอริยากิ.png",
     sizes: [200],
     usage:
       "Perfect for glazing pan-fried or grilled seafood, poultry and meat. Developed to deliver a rich and flavourful finish.",
@@ -393,7 +393,7 @@ export const products: Product[] = [
     name: "MISO BBQ SAUCE",
     name_th: "ซอสมิโซบาร์บีคิว",
     categorySlug: "dipping-sauce",
-    image: "/images/products/miso-bbq-sauce.jpg",
+    image: "/images/products/26. ซอสมิโซะบาบีคิว.png",
     sizes: [200],
     usage:
       "Unique Japanese BBQ sauce with rich, thick texture. Perfect for dipping and glazing grilled meats, pork or chicken steak.",
@@ -407,7 +407,7 @@ export const products: Product[] = [
     name: "PLUM SAUCE",
     name_th: "น้ำจิ้มบ๊วย",
     categorySlug: "dipping-sauce",
-    image: "/images/products/plum-sauce.jpg",
+    image: "/images/products/27. น้ำจิ้มบ๊วย.png",
     sizes: [200],
     usage:
       "Light brown sweet and sour sauce. Perfect as a dip for deep-fried foods such as spring rolls, shrimp cakes and fries. Can also be used as a base for plum beverages.",
@@ -420,7 +420,7 @@ export const products: Product[] = [
     name: "CHICKEN RICE SAUCE",
     name_th: "น้ำจิ้มข้าวมันไก่",
     categorySlug: "dipping-sauce",
-    image: "/images/products/chicken-rice-sauce.jpg",
+    image: "/images/products/28. น้ำจิ้มข้าวมันไก่.png",
     sizes: [200],
     usage:
       "A delicious Thai-style dipping sauce for chicken rice or steamed fish, with a slight spicy kick.",
@@ -435,7 +435,7 @@ export const products: Product[] = [
     name: "JAPANESE SOY SAUCE WITH SESAME DRESSING",
     name_th: "น้ำสลัดซีอิ๊วญี่ปุ่นผสมงา",
     categorySlug: "salad-dressing",
-    image: "/images/products/japanese-soy-sauce-sesame-dressing.jpg",
+    image: "/images/products/29. น้ำสลัดซีอิ๊วญี่ปุ่นผสมงา.png",
     sizes: [200],
     usage: "Refreshing soy sauce sesame dressing that pairs well with all types of salad and is also excellent with fish carpaccio.",
     checklist: [
@@ -447,7 +447,7 @@ export const products: Product[] = [
     name: "ROASTED SESAME JAPANESE DRESSING (LOW FAT)",
     name_th: "น้ำสลัดครีมงาคั่วสไตล์ญี่ปุ่น สูตรไขมันต่ำ",
     categorySlug: "salad-dressing",
-    image: "/images/products/roasted-sesame-japanese-dressing-low-fat.jpg",
+    image: "/images/products/30. น้ำสลัดครีมงาคั่วญี่ปุ่นผสมงา ไขมันต่ำ.png",
     sizes: [200],
     usage: "Roasted sesame Japanese salad dressing that delivers rich umami flavour and pairs well with all types of salads or fish carpaccio.",
     checklist: [
@@ -459,7 +459,7 @@ export const products: Product[] = [
     name: "CORIANDER (PAKCHEE) DRESSING",
     name_th: "น้ำสลัดผักชี",
     categorySlug: "salad-dressing",
-    image: "/images/products/coriander-pakchee-dressing.jpg",
+    image: "/images/products/31. น้ำสลัดผักชี.png",
     sizes: [200],
     usage: "Creamy coriander dressing bursting with freshness. Perfect not only for salads but also for burritos, sandwiches, veggie wraps, grilled meats and fries.",
     checklist: [
@@ -471,7 +471,7 @@ export const products: Product[] = [
     name: "ANCHOVY SALAD DRESSING",
     name_th: "น้ำสลัดแอนโชวี่",
     categorySlug: "salad-dressing",
-    image: "/images/products/anchovy-salad-dressing.jpg",
+    image: "/images/products/32. น้ำสลัดแอนโชวี่.png",
     sizes: [200],
     usage: "Unique anchovy dressing blended with garlic and onion to create an extra umami flavour. A low-fat dressing perfect for all types of salads.",
     checklist: [
@@ -483,7 +483,7 @@ export const products: Product[] = [
     name: "YUZU DRESSING (OIL FREE)",
     name_th: "น้ำสลัดยูซุ",
     categorySlug: "salad-dressing",
-    image: "/images/products/yuzu-dressing-oil-free.jpg",
+    image: "/images/products/33. น้ำสลัดยูซึ.png",
     sizes: [200],
     usage: "Oil-free yuzu dressing perfect for low-fat diets. Aromatic citrus fragrance with refreshing zesty flavour that brightens any dish.",
     checklist: [
@@ -495,7 +495,7 @@ export const products: Product[] = [
     name: "WASABI DRESSING (OIL FREE)",
     name_th: "น้ำสลัดวาซาบิ",
     categorySlug: "salad-dressing",
-    image: "/images/products/wasabi-dressing-oil-free.jpg",
+    image: "/images/products/34. น้ำสลัดวาซาบิ.png",
     sizes: [200],
     usage: "Oil-free wasabi dressing delivering a natural wasabi punch. Perfect for wasabi lovers looking to add freshness and flavour to their meals.",
     checklist: [
@@ -507,7 +507,7 @@ export const products: Product[] = [
     name: "INSTANT THAI SALAD DRESSING",
     name_th: "น้ำยำสำเร็จรูป",
     categorySlug: "salad-dressing",
-    image: "/images/products/instant-thai-salad-dressing.jpg",
+    image: "/images/products/35. น้ำยำปรุงสำเร็จ.png",
     sizes: [200],
     usage: "Universal sauce for Thai salad dishes such as seafood salad, vermicelli salad and papaya salad. Simply add lime or lemon to adjust the flavour to your liking.",
     checklist: [
@@ -519,7 +519,7 @@ export const products: Product[] = [
     name: "Sweet & Sour Stir Fry Sauce",
     name_th: "ซอสผัดเปรี้ยวหวาน",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/sweet-sour.jpg",
+    image: "/images/products/40. ซอสผัดเปรี้ยวหวาน.png",
     sizes: [200],
     usage:
       "Simply add about 7 tablespoons (100g) of sauce to your dish and stir fry with deep-fried seafood, chicken, or pork in a wok. Add more sauce to taste.",
@@ -530,7 +530,7 @@ export const products: Product[] = [
     name: "Tamarind Sauce",
     name_th: "ซอสมะขาม",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/tamarind.jpg",
+    image: "/images/products/41. ซอสมะขาม.png",
     sizes: [200],
     usage:
       "Thai tamarind sauce with a sweet and sour flavor that pairs well with seafood, vegetables, and stir fry dishes. It can also be used as a glaze, dipping sauce, or even mixed into a refreshing tamarind drink.",
@@ -541,7 +541,7 @@ export const products: Product[] = [
     name: "Steamed Fish Sauce",
     name_th: "ซีอิ๊วนึ่งปลา",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/steamed-fish.jpg",
+    image: "/images/products/42. ซีอิ๊วนึ่งปลา (1).png",
     sizes: [200, 700],
     usage:
       "A simple sauce to prepare delicious steamed fish. Steam fish for 4–6 minutes with ginger and scallions. Heat a mix of steamed fish sauce and water (1:2 ratio) with oil, then pour over the fish and serve immediately.",
@@ -552,7 +552,7 @@ export const products: Product[] = [
     name: "Hot & Spicy Hot Pot Soup",
     name_th: "ซอสเย็นตาโฟหม้อไฟ",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/hotpot.jpg",
+    image: "/images/products/43. ซอสเย็นตาโฟหม้อไฟ.png",
     sizes: [200, 1950],
     usage:
       "A mouth-watering hot and spicy soup base. Mix sauce with water at a 1:3 ratio, bring to boil, then add pork, chicken, fish balls, and vegetables.",
@@ -563,7 +563,7 @@ export const products: Product[] = [
     name: "Vegan Mala Spicy Sauce",
     name_th: "ซอสหม่าล่า",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/mala.jpg",
+    image: "/images/products/44. ซอสหมาล่า.png",
     sizes: [110],
     usage:
       "Rich and spicy mala flavor. Perfect as a soup base (1:5 mixture with water), stir fry sauce, or universal spicy dipping sauce.",
@@ -574,7 +574,7 @@ export const products: Product[] = [
     name: "Chili Garlic Oil",
     name_th: "น้ำมันพริกกระเทียม",
     categorySlug: "ready-sauce",
-    image: "/products/ready-sauce/chili-garlic-oil.jpg",
+    image: "/images/products/45. น้ำมันพริกกระเทียม.png",
     sizes: [110],
     usage:
       "A flavorful mix of chili, crispy garlic, and coconut oil that delivers strong umami taste. Great for stir fry dishes, aglio e olio pasta, Chinese egg noodles, or as a spicy table dip.",
@@ -585,7 +585,7 @@ export const products: Product[] = [
     name: "Vegan Massaman Curry Paste",
     name_th: "แกงมัสมั่นเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/massaman.jpg",
+    image: "/images/products/46. แกงมัสมัน (1).png",
     sizes: [110, 320, 1000],
     usage:
       "Mix curry paste with water and coconut milk and bring to boil. Then add diced beef, lamb, or chicken together with vegetables such as potato, onion, and peanuts.",
@@ -596,7 +596,7 @@ export const products: Product[] = [
     name: "Vegan Red Curry Paste",
     name_th: "แกงแดงเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/red-curry.jpg",
+    image: "/images/products/47. แกงแดง (1).png",
     sizes: [110, 320, 1000],
     usage:
       "Mix curry paste with water and coconut milk and bring to boil. Then add vegetables and pineapple.",
@@ -607,7 +607,7 @@ export const products: Product[] = [
     name: "Vegan Green Curry Paste",
     name_th: "แกงเขียวเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/green-curry.jpg",
+    image: "/images/products/48. แกงเขียว เจ (1).png",
     sizes: [110, 320, 1000],
     usage:
       "Mix curry paste with water and coconut milk and bring to boil. Then add diced or roughly chopped vegetables.",
@@ -618,7 +618,7 @@ export const products: Product[] = [
     name: "Vegan Panang Curry Paste",
     name_th: "แกงพะแนงเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/panang.jpg",
+    image: "/images/products/49. แกงพะแนง เจ.png",
     sizes: [110, 320, 1000],
     usage:
       "Mix curry paste with water and coconut milk and bring to boil. Then add diced vegetables.",
@@ -629,7 +629,7 @@ export const products: Product[] = [
     name: "Vegan Yellow Curry Paste",
     name_th: "แกงเหลืองเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/yellow-curry.jpg",
+    image: "/images/products/50. แกงเหลือง เจ (1).png",
     sizes: [110, 320, 1000],
     usage:
       "Mix curry paste with water and coconut milk and bring to boil. Then add diced vegetables.",
@@ -640,7 +640,7 @@ export const products: Product[] = [
     name: "Vegan Tom Yum Paste",
     name_th: "ต้มยำเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/tom-yum.jpg",
+    image: "/images/products/51. ต้มยำ เจ.png",
     sizes: [110, 320, 1000],
     usage:
       "Mix tom yum paste with water and coconut milk and bring to boil. Then add seafood or chicken with sliced vegetables such as lemongrass, galangal, lime leaf, mushrooms, red onion, and coriander.",
@@ -651,7 +651,7 @@ export const products: Product[] = [
     name: "Vegan Tom Kha Paste",
     name_th: "ต้มข่าเจปรุงสำเร็จ",
     categorySlug: "curry-premix",
-    image: "/products/curry-premix/tom-kha.jpg",
+    image: "/images/products/52. ต้มข่า.png",
     sizes: [110, 320, 1000],
     usage:
       "Mix tom kha paste with water and coconut milk and bring to boil. Then add diced chicken and sliced vegetables such as lemongrass, galangal, lime leaf, mushrooms, red onion, and coriander.",
