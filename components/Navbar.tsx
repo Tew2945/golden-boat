@@ -36,20 +36,17 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-10 text-sm tracking-widest uppercase">
-          <a href="#hero" className="nav-link">
+          <a href="/#hero" className="nav-link">
             Home
           </a>
-          <a href="#heritage" className="nav-link">
+          <a href="/#heritage" className="nav-link">
             Heritage
           </a>
-          <a href="#process" className="nav-link">
+          <a href="/#process" className="nav-link">
             Process
           </a>
-          <a href="#categories" className="nav-link">
+          <a href="/#categories" className="nav-link">
             Products
-          </a>
-          <a href="#faq" className="nav-link">
-            FAQ
           </a>
         </nav>
 

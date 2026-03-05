@@ -30,6 +30,19 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <div className="absolute inset-0 bg-black/60 z-10" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
+        <Link
+          href="/"
+          className="
+  mb-10
+  flex items-center
+  text-white
+  hover:text-[var(--heritage-gold)]
+  transition
+  "
+        >
+          ← Back
+        </Link>
+
 
         {/* Title */}
         <h1 className="text-3xl md:text-5xl font-serif text-center text-white tracking-wider mb-16">
@@ -60,7 +73,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 />
               </div>
 
-              <h3 className="mt-4 text-sm md:text-base font-semibold text-center group-hover:text-[var(--heritage-gold)] transition">
+              <h3 className="mt-4 text-sm md:text-base text-gray-500 font-semibold text-center group-hover:text-[var(--heritage-gold)] transition">
                 {product.name}
               </h3>
 

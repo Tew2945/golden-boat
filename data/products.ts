@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "SUPREME LIGHT SOY SAUCE",
     name_th: "ซีอิ๊วขาวสูตร 1",
     categorySlug: "cooking-sauce",
-    image: "/images/products/supreme-light-soy-sauce.jpg",
+    image: "/images/products/01. ซีอิ๊วขาว สูตร1 1000.png",
     sizes: [200, 300, 700, 1950, 4300],
     usage:
       "Naturally brewed soy sauce that instantly improves and enriches the flavour and taste for soups, stir frying, marinating, stewing and steaming. Also excellent as a dip.",
@@ -33,7 +33,7 @@ export const products: Product[] = [
     name: "MUSHROOM SOY SAUCE",
     name_th: "ซีอิ๊วขาวเห็ดหอม",
     categorySlug: "cooking-sauce",
-    image: "/images/products/mushroom-soy-sauce.jpg",
+    image: "/images/products/02. ซีอิ๊วขาวเห็ดหอม 1000.png",
     sizes: [200, 700],
     usage:
       "Ideal for stir frying vegetables, meat, poultry and seafood dishes. The mild natural mushroom flavour makes it particularly delicious for steamed dishes, delivering a rich savoury taste. Also excellent as a marinade.",
@@ -50,7 +50,7 @@ export const products: Product[] = [
     name: "MULTIGRAIN SOY SAUCE",
     name_th: "ซีอิ๊วขาวธัญพืช",
     categorySlug: "cooking-sauce",
-    image: "/images/products/multigrain-soy-sauce.jpg",
+    image: "/images/products/03. ซีอิ๊วขาวธัญพืช กลูเตนฟรี 1000.png",
     sizes: [200, 700],
     usage:
       "Multigrain naturally brewed soy sauce (gluten free) that instantly improves and enriches the flavour and taste of soups, stir fries, marinades, stews and steamed dishes. Also excellent as a dip.",
@@ -198,7 +198,7 @@ export const products: Product[] = [
   {
     slug: "hoisin-sauce",
     name: "HOISIN SAUCE",
-    name_th: "",
+    name_th: "ซอสฮอยซีน",
     categorySlug: "cooking-marinade-sauce",
     image: "/images/products/hoisin-sauce.jpg",
     sizes: [320],
