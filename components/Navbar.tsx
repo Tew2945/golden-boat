@@ -66,19 +66,19 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col items-center gap-6 text-sm tracking-widest uppercase">
-          <a href="#hero" onClick={() => setOpen(false)}>
+          <a href="#/hero" onClick={() => setOpen(false)}>
             Home
           </a>
-          <a href="#heritage" onClick={() => setOpen(false)}>
+          <a href="#/heritage" onClick={() => setOpen(false)}>
             Heritage
           </a>
-          <a href="#process" onClick={() => setOpen(false)}>
+          <a href="#/process" onClick={() => setOpen(false)}>
             Process
           </a>
-          <a href="#categories" onClick={() => setOpen(false)}>
+          <a href="#/categories" onClick={() => setOpen(false)}>
             Products
           </a>
-          <a href="#faq" onClick={() => setOpen(false)}>
+          <a href="#/faq" onClick={() => setOpen(false)}>
             FAQ
           </a>
         </div>
