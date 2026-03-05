@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
+import ContactFloating from "@/components/ContactFloating";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar"; 
@@ -45,6 +46,8 @@ export default function RootLayout({
         {/* Footer shared across all pages */}
         <Footer />
 
+        {/* Contact Floating Button */}
+        <ContactFloating />
       </body>
     </html>
   );
