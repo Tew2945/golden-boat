@@ -20,7 +20,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     <section className="relative min-h-screen pt-32 pb-24 px-6">
 
       {/* Background */}
-      <div className="absolute inset-0 bg-black/70 z-0" />
+      <div className="absolute inset-0 bg-black/60 z-0" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
 

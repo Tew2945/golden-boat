@@ -200,7 +200,7 @@ export const products: Product[] = [
     name: "HOISIN SAUCE",
     name_th: "ซอสฮอยซีน",
     categorySlug: "cooking-marinade-sauce",
-    image: "/images/products/hoisin-sauce.jpg",
+    image: "/images/products/12. ฮอยซินซอส.png",
     sizes: [320],
     usage:
       "A rich blend with salty, sweet and umami flavour. Perfect for marinating grilled meats. Developed especially for marinating, glazing and stir frying.",
@@ -217,7 +217,7 @@ export const products: Product[] = [
     name: "BBQ CHAR SIEW MARINATE SAUCE",
     name_th: "ซอสหมักหมูแดงสไตล์ฮ่องกง",
     categorySlug: "cooking-marinade-sauce",
-    image: "/images/products/bbq-char-siew-marinade-sauce.jpg",
+    image: "/images/products/13. ซอสหมักหมูแดงสไตล์ฮ่องกง.png",
     sizes: [200],
     usage:
       "Perfect for marinating and glazing grilled meats with a rich, flavourful texture.",
@@ -232,7 +232,7 @@ export const products: Product[] = [
     name: "TERIYAKI MARINATE SAUCE",
     name_th: "ซอสหมักเทอริยากิ",
     categorySlug: "cooking-marinade-sauce",
-    image: "/images/products/teriyaki-marinade-sauce.jpg",
+    image: "/images/products/14. ซอสหมักเทอริยากิ.png",
     sizes: [200, 700],
     usage:
       "Perfect for marinating and glazing grilled meats or seafood. Developed especially to deliver a rich and flavourful finish.",
@@ -246,7 +246,7 @@ export const products: Product[] = [
     name: "VEGAN SHRIMP PASTE (KAPI J)",
     name_th: "กะปิเจ",
     categorySlug: "cooking-marinade-sauce",
-    image: "/images/products/vegan-shrimp-paste-kapi-j.jpg",
+    image: "/images/products/15. กระปิเจ.png",
     sizes: [110, 320],
     usage:
       "A vegan version of traditional Thai shrimp paste (Kapi). Suitable for salads, dips, soups, stir fries and curries. Salty, pungent and full of deep umami richness.",
