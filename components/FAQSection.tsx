@@ -1,43 +1,59 @@
 "use client";
 import { useState } from "react";
+import { useReveal } from "@/hooks/useReveal";
+import { faqs } from "@/data/faq";
 
-const faqs = [
-  {
-    q: "Are your products naturally brewed?",
-    a: "Yes, we use traditional natural fermentation methods."
-  },
-  {
-    q: "Do you offer OEM services?",
-    a: "Yes, we provide flexible OEM services to select partners."
-  },
-];
 
 export default function FAQSection() {
   const [open, setOpen] = useState<number | null>(null);
+  const { ref, visible } = useReveal(0.15);
 
   return (
-    <section className="py-24 bg-white px-6">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">
+    <section
+      ref={ref}
+      className="relative py-28 px-6 overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-black/60 z-10" />
+
+
+      {/* content */}
+      <div className="relative z-10 max-w-4xl mx-auto text-white">
+
+        <h2
+          className={`text-3xl md:text-5xl font-serif text-center mb-16 reveal ${visible ? "visible" : ""
+            }`}
+        >
           FAQ
         </h2>
 
-        {faqs.map((faq, index) => (
-          <div key={index} className="mb-6 border-b pb-4">
-            <button
-              onClick={() => setOpen(open === index ? null : index)}
-              className="font-semibold text-left w-full"
+        <div className="space-y-6">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className={`bg-white/90 backdrop-blur rounded-xl p-6 shadow-md reveal ${visible ? "visible" : ""
+                }`}
+              style={{ transitionDelay: `${index * 0.1}s` }}
             >
-              {faq.q}
-            </button>
+              <button
+                onClick={() => setOpen(open === index ? null : index)}
+                className="font-semibold text-left w-full text-gray-800 flex justify-between items-center"
+              >
+                {faq.q}
 
-            {open === index && (
-              <p className="mt-3 text-gray-600">
-                {faq.a}
-              </p>
-            )}
-          </div>
-        ))}
+                <span className="text-[var(--heritage-gold)] text-xl">
+                  {open === index ? "−" : "+"}
+                </span>
+              </button>
+
+              {open === index && (
+                <p className="mt-4 text-gray-600 leading-relaxed">
+                  {faq.a}
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );

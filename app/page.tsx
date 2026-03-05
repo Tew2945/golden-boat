@@ -5,12 +5,12 @@ import ProductionProcess from "@/components/ProductionProcess";
 import CategoriesSection from "@/components/CategoriesSection";
 import PackagingSection from "@/components/PackagingSection";
 import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <main>
         <Hero />
         {/* <HeroSection /> */}
