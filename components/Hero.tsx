@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 container">
         <h1
-          className={`font-serif text-5xl md:text-6xl mb-6 uppercase tracking-wider reveal ${
+          className={`text-gray-200 font-serif text-5xl md:text-6xl mb-6 uppercase tracking-wider reveal ${
             visible ? "visible" : ""
           }`}
         >
@@ -24,7 +24,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className={`text-[var(--text-secondary)] max-w-2xl mx-auto mb-8 reveal reveal-delay-1 ${
+          className={`text-gray-200 text-[var(--text-secondary)] max-w-2xl mx-auto mb-8 reveal reveal-delay-1 ${
             visible ? "visible" : ""
           }`}
         >
