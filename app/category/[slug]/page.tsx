@@ -27,8 +27,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <section className="relative min-h-screen pt-32 pb-24 px-6 overflow-hidden">
 
       {/* Background */}
-      <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center" />
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-black/60 z-10" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
 
