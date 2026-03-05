@@ -16,6 +16,23 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   if (!product) return notFound();
 
+  // หา products ใน category เดียวกัน
+  const categoryProducts = products.filter(
+    (p) => p.categorySlug === product.categorySlug
+  );
+
+  const currentIndex = categoryProducts.findIndex(
+    (p) => p.slug === product.slug
+  );
+
+  const prevProduct =
+    currentIndex > 0 ? categoryProducts[currentIndex - 1] : null;
+
+  const nextProduct =
+    currentIndex < categoryProducts.length - 1
+      ? categoryProducts[currentIndex + 1]
+      : null;
+
   return (
     <section className="relative min-h-screen pt-32 pb-24 px-6">
 
@@ -34,14 +51,41 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
         <div className="grid md:grid-cols-2 gap-12 mt-10 items-center">
 
-          {/* Product Image */}
-          <div className="relative w-full h-[400px]">
-            <Image
-              src={product.image}
-              alt={product.name}
-              fill
-              className="object-contain"
-            />
+          {/* Product Image + Navigation */}
+          <div className="relative flex items-center justify-center">
+
+            {/* Previous */}
+            {prevProduct && (
+              <Link
+                href={`/product/${prevProduct.slug}`}
+                className="absolute left-0 md:-left-10 text-white text-3xl
+                hover:text-[var(--heritage-gold)] transition"
+              >
+                ‹
+              </Link>
+            )}
+
+            {/* Image */}
+            <div className="relative w-full h-[400px]">
+              <Image
+                src={product.image}
+                alt={product.name}
+                fill
+                className="object-contain"
+              />
+            </div>
+
+            {/* Next */}
+            {nextProduct && (
+              <Link
+                href={`/product/${nextProduct.slug}`}
+                className="absolute right-0 md:-right-10 text-white text-3xl
+                hover:text-[var(--heritage-gold)] transition"
+              >
+                ›
+              </Link>
+            )}
+
           </div>
 
           {/* Product Info */}
